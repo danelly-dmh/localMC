@@ -1,0 +1,136 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Arial;
+	font-size: 12pt;
+}
+.main{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 900px;
+	overflow: hidden;
+}
+header{
+	background: #333;
+}
+#logo p{
+	font-family: "Oswald";
+	font-size: 3rem;
+	font-weight: 400;
+	color: #fff;
+}
+#logo span{
+	font-family: "Oswald";
+	font-size: 1.1rem;
+	font-weight: 300;
+	color: #ccc;
+}
+header nav ul li{
+	display: inline-block;
+	padding: 15px;
+	background: ;
+	border-bottom: solid 5px #080808;
+}
+nav{
+	background: #080808;
+	margin-top: 20px;
+}
+header nav ul li a{
+	font-family: "Oswald", Arial;
+	font-weight: 300;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+header nav ul li:hover{
+	border-bottom: solid 5px #F7661B;
+}
+#article-box{
+	width: 60%;
+	float: left;
+	margin-top: 20px;
+}
+article{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.wid-title{
+	border-bottom: 1px solid #ccc;
+}
+aside{
+	width: 30%;
+	float: right;
+	margin-top: 20px;
+}
+article h1, aside h1{
+	font-family: "Oswald", Arial;
+	font-weight: 700;
+}
+article a{
+	color: #000;
+	text-decoration: none;
+}
+article a:hover{
+	color: #F7661B;
+}
+article h4{
+	color: #ccc;
+	font-family: "Oswald";
+	font-weight: 300;
+}
+article p{
+	margin-top: 15px;
+	line-height: 1.5;
+}
+aside h1{
+	border-bottom: 3px solid #F7661B;
+	display: inline;
+}
+
+aside ul li{
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+	list-style: none;
+}
+aside a{
+	text-decoration: none;
+	color: #080808;
+}
+aside a:hover{
+	text-decoration: underline;
+	color: #F7661B;
+}
+.widget{
+	margin-bottom: 40px;
+}
+footer{
+	background: #080808;
+	clear: both;
+	width: 100%;
+}
+#footer-box{
+
+	max-width: 900px;
+	margin: 0 auto;
+	/*text-align: right;*/
+	color: #ccc;
+	font-size: 0.8rem;
+	padding: 20px;
+	
+}
+#footer-box p{
+	display: inline-block;
+}
+/*-- Tablets & SmarthPhones --*/
+@media screen and (max-width:750px){
+	#article-box{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+}
